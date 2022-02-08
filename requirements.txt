@@ -1,0 +1,16 @@
+Quandl==3.6.1
+pandas==1.1.5
+click==7.1.2
+scipy==1.5.4
+attrs==21.2.0
+tensorflow==2.4.1
+tensorflow_probability==0.12.2
+seaborn==0.11.1
+tqdm==4.60.0
+matplotlib==3.3.4
+absl_py==0.12.0
+dm_sonnet==2.0.0
+numpy==1.19.5
+absl==0.0
+attr==0.3.1
+sonnet==0.1.6
