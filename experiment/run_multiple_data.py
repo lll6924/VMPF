@@ -51,6 +51,8 @@ def main(algorithm, proposal, lr, epochs, evaluation_n, final_evaluation_n, repa
         lr = [lr]
     if not hasattr(epochs, '__iter__'):
         epochs = [epochs]
+    if not hasattr(grad_clip_thresholds, '__iter__'):
+        grad_clip_thresholds = [grad_clip_thresholds]
     prop = getattr(sys.modules[__name__], proposal)
     reparameterize = str(reparameterize) == 'True'
     stamp = datetime.now().strftime("%Y%m%d-%H%M%S.%f")
